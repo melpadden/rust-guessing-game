@@ -1,2 +1,3 @@
 # rust-guessing-game
-A number guessing game in Rust
+
+A number guessing game in Rust.
