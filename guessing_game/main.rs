@@ -8,7 +8,7 @@ use std::cmp::Ordering;
 fn main() {
     println!("Guessing Game");
 
-    let secretNumber: i32 = rand::thread_rng().gen_range(1..100);
+    let secretNumber = rand::thread_rng().gen_range(1..100);
     println!("{}", secretNumber);
 
     loop {
